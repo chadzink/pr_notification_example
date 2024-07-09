@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "GCP Cloud Function",
+            "type": "go",
+            "request": "launch",
+            "mode": "debug",
+            "program": "${workspaceFolder}/cmd/main.go",
+            "cwd": "${workspaceFolder}",
+            "env": {
+                "FUNCTION_TARGET": "PrNotifyHTTP",
+                "GITHUB_TOKEN": "test-token",
+                "PORT": "3001"
+            },
+        }
+    ]
+}

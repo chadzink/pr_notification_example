@@ -1,0 +1,22 @@
+{
+    "github": {
+        "organization": {
+            "name": "your-organization",
+            "repositories": [
+                { "name": "your-repo-1"},
+                { "name": "your-repo-2"},
+                { "name": "your-repo-3"}
+            ],
+            "teamMembers": [
+                { "userName": "your-team-member-1", "email": "you-team-member-1@email.com", "displayName": "Your Team Member 1" },
+                { "userName": "your-team-member-2", "email": "you-team-member-2@email.com", "displayName": "Your Team Member 2" },
+                { "userName": "your-team-member-3", "email": "you-team-member-3@email.com", "displayName": "Your Team Member 3" },
+                { "userName": "your-team-member-4", "email": "you-team-member-4@email.com", "displayName": "Your Team Member 4" },
+                { "userName": "your-team-member-5", "email": "you-team-member-5@email.com", "displayName": "Your Team Member 5" }
+            ]
+        }
+    },
+    "slack": {
+        "webhookUrl": "https://hooks.slack.com/services/your-webhook-url"
+    }
+}

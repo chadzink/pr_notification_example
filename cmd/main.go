@@ -16,6 +16,10 @@ func main() {
 	if envPort := os.Getenv("PORT"); envPort != "" {
 		port = envPort
 	}
+
+	// Log the port the function will be running on
+	log.Printf("Listening on port: %s\n", port)
+
 	if err := funcframework.Start(port); err != nil {
 		log.Fatalf("funcframework.Start: %v\n", err)
 	}
